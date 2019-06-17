@@ -13,11 +13,3 @@ Since 240 minutes have passed, the current time is 04:00. The digits sum up to 0
 For `n = 808`, the output should be<br>
 `lateRide(n) = 14`.
 808 minutes mean that it's 13:28 now, so the answer should be 1 + 3 + 2 + 8 = 14.
-
-__Input/Output__
-
-+ __[execution time limit] 3 seconds (cs)__
-
-+ __[input] integer n__<br><br>A positive two-digit integer.<br><br>_Guaranteed constraints:_<br>`10 ≤ n ≤ 99`.
-
-+ __[output] integer__<br><br>The sum of the first and second digits of the input number.

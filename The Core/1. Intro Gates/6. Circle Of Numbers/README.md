@@ -6,11 +6,3 @@ __Example__
 
 For `n = 10` and `firstNumber = 2`, the output should be<br>
 `circleOfNumbers(n, firstNumber) = 7`.
-
-__Input/Output__
-
-+ __[execution time limit] 3 seconds (cs)__
-
-+ __[input] integer n__<br><br>A positive two-digit integer.<br><br>_Guaranteed constraints:_<br>`10 ≤ n ≤ 99`.
-
-+ __[output] integer__<br><br>The sum of the first and second digits of the input number.

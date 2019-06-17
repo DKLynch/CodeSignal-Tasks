@@ -8,17 +8,3 @@ __Example__
 
 For `nCols = 16`, `nRows = 11`, `col = 5` and `row = 3`, the output should be<br>
 `seatsInTheater(nCols, nRows, col, row) = 96`.
-
-__Input/Output__
-
-+__[execution time limit] 3 seconds (cpp)__
-
-+ __[input] integer nCols__<br><br>An integer, the number of theater's columns.<br><br>_Guaranteed constraints:_<br>`1 ≤ nCols ≤ 1000`.
-
-+ __[input] integer nRows__<br><br>An integer, the number of theater's rows.<br><br>_Guaranteed constraints:_<br>`1 ≤ nRows ≤ 1000`.
-
-+ __[input] integer col__<br><br>An integer, the column number of your own seat (1-based).<br><br>_Guaranteed constraints:_<br>`1 ≤ col ≤ nCols`.
-
-+ __[input] integer row__<br><br>An integer, the row number of your own seat (1-based).<br><br>_Guaranteed constraints:_<br>`1 ≤ row ≤ nRows`.
-
-+ __[output] integer__<br><br>The number of people who sit strictly behind you and in your column or to the left.
