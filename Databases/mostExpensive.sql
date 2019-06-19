@@ -1,4 +1,4 @@
-/*Please add ; after each select statement*/
+ /*Please add ; after each select statement*/
 CREATE PROCEDURE mostExpensive()
 BEGIN
     SELECT exp.name
