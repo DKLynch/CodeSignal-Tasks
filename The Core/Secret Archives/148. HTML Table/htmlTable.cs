@@ -7,8 +7,7 @@ string htmlTable(string table, int row, int column) {
     
     var rows = Regex.Matches(table, "<tr>").ToList();
     int noRows = rows.Count();
-    var columns = Regex.Matches(table, "<td>").ToList();
-    int noColumns = columns.Count() / noRows;
+    int noColumns = Regex.Matches(table, "<td>").ToList().Count() / noRows;
    
     var raw = Regex.Matches(table, pattern).Select(x => x.ToString()).ToList();
     var raw2 = Regex.Matches(table, pattern2).Select(x => x.ToString()).ToList();
