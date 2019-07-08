@@ -5,5 +5,4 @@ def metroCard(lastNumberOfDays):
     elif lastNumberOfDays == 31:
         return [28, 30, 31]
     else:
-        return null
-		
+        return null	

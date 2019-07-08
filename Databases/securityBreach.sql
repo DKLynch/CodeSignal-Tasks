@@ -1,7 +1,7 @@
 /*Please add ; after each select statement*/
 CREATE PROCEDURE securityBreach()
 BEGIN
-	SELECT *
+    SELECT *
     FROM users
     WHERE attribute LIKE CONCAT('_%\%', BINARY(first_name), '\_', BINARY(second_name), '\%%')
     ORDER BY attribute;
